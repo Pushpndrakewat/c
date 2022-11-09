@@ -1,0 +1,18 @@
+//Write a program to print the average of 3 numbers.
+
+#include<stdio.h>
+
+int main()
+{
+	int n1,n2,n3;
+	float avg;
+	printf("enter n1:");
+	scanf("%d",&n1);
+	printf("enter n2:");
+	scanf("%d",&n2);
+	printf("enter n3:");
+	scanf("%d",&n3);
+	avg=(n1+n2+n3)/3;
+	printf("Avg. = %f",avg);
+	return 0;
+}
